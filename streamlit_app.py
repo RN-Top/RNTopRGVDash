@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import joblib
-st.audio("absolute-sound--fashion-soft-house-no-copyright-510775.mp3" , format="audio/mp3" , autoplay=True)
 # Load the model
 model = joblib.load('rgv_model.pkl')
 
