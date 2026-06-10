@@ -13,7 +13,7 @@ rush_hour = st.checkbox("Is it rush hour?")
 
 if st.button("Predict Delivery Time"):
     input_data = pd.DataFrame({
-        'distance_miles': ,
+        'distance_miles': distance,
         'time_of_day': ,
         'is_peak': })
     
