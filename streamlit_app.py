@@ -18,4 +18,4 @@ if st.button("Predict Delivery Time"):
         'is_peak': [rush_hour] })
     
     prediction = model.predict(input_data)[0]
-    st.success(f"🍔 Your food will arrive in about **{int(prediction)} minutes**")
+    st.success(f"🍔 Your food will arrive in about **{int(prediction)}** minutes")
